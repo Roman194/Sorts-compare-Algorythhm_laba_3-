@@ -3,7 +3,7 @@
 This project shows the difference between required time for different sort algorythms. </br>
 ## Values generation
 Every time when project starts run, it generate N (8000) double pseudorandom values of exponential distribution. </br>
-As Java standart libraries can generate only uniform distribution values, custom realization of convertation of generated values from unifrom to exponential distribution was used. </br>
+As Java standart libraries can generate only uniform distribution values, custom realization of convertation of generated values from uniform to exponential distribution was used. </br>
 This convertation is based on calculation of table of intervals for current N and distribution. It can be visualized in Excel file like on screenshot below. </br>
 ![image](https://github.com/user-attachments/assets/1df35f32-a225-4eb7-9e10-a37ee65fec17) </br>
 In this screenshot the difference of the current P num and the next one is probability of matching the number to current interval (num before dot). 
@@ -25,7 +25,7 @@ To make the ratio part of double values, the difference between generated unifor
 ## Used metricks
 Only for simple ones:
 * Compares count (C)
-* Relative swaps count (M = swaps / N)
+* Relative swaps count (M = swaps / N) </br>
 For all algorythms:
 * Time (ms)
 * Relative time (ms / as time per average time)
